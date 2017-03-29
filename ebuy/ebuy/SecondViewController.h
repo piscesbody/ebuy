@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  SecondViewController.h
 //  ebuy
 //
 //  Created by 陈宁 on 2017/3/29.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface SecondViewController : UIViewController
 
 @end

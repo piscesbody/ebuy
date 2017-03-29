@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  RoundedButton.h
 //  ebuy
 //
 //  Created by 陈宁 on 2017/3/29.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface RoundedButton : UIButton
+@property (nonatomic, assign) int angle;
 
 @end

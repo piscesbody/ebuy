@@ -92,10 +92,11 @@
 		13233B9A1E8B970B00F1B179 /* xx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 13233B4B1E8B970B00F1B179 /* xx2.png */; };
 		13233B9E1E8B973100F1B179 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233B9C1E8B973100F1B179 /* FirstViewController.m */; };
 		13233B9F1E8B973100F1B179 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13233B9D1E8B973100F1B179 /* FirstViewController.xib */; };
-		13233BA21E8B983B00F1B179 /* PasswordImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BA11E8B983B00F1B179 /* PasswordImageView.m */; };
-		13233BA51E8B989900F1B179 /* ItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BA41E8B989900F1B179 /* ItemButton.m */; };
-		13233BA91E8B994600F1B179 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BA71E8B994600F1B179 /* MainViewController.m */; };
-		13233BAA1E8B994600F1B179 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13233BA81E8B994600F1B179 /* MainViewController.xib */; };
+		13233BA21E8B983B00F1B179 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BA11E8B983B00F1B179 /* MyImageView.m */; };
+		13233BA51E8B989900F1B179 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BA41E8B989900F1B179 /* MyButton.m */; };
+		13233BAE1E8BD96600F1B179 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BAC1E8BD96600F1B179 /* SecondViewController.m */; };
+		13233BAF1E8BD96600F1B179 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13233BAD1E8BD96600F1B179 /* SecondViewController.xib */; };
+		13233BB21E8BDB4D00F1B179 /* RoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BB11E8BDB4D00F1B179 /* RoundedButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -188,13 +189,15 @@
 		13233B9B1E8B973100F1B179 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		13233B9C1E8B973100F1B179 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		13233B9D1E8B973100F1B179 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
-		13233BA01E8B983B00F1B179 /* PasswordImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordImageView.h; sourceTree = "<group>"; };
-		13233BA11E8B983B00F1B179 /* PasswordImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordImageView.m; sourceTree = "<group>"; };
-		13233BA31E8B989900F1B179 /* ItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemButton.h; sourceTree = "<group>"; };
-		13233BA41E8B989900F1B179 /* ItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemButton.m; sourceTree = "<group>"; };
-		13233BA61E8B994600F1B179 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		13233BA71E8B994600F1B179 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		13233BA81E8B994600F1B179 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		13233BA01E8B983B00F1B179 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		13233BA11E8B983B00F1B179 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+		13233BA31E8B989900F1B179 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		13233BA41E8B989900F1B179 /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		13233BAB1E8BD96600F1B179 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		13233BAC1E8BD96600F1B179 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		13233BAD1E8BD96600F1B179 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		13233BB01E8BDB4D00F1B179 /* RoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedButton.h; sourceTree = "<group>"; };
+		13233BB11E8BDB4D00F1B179 /* RoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,13 +236,15 @@
 				13233B9B1E8B973100F1B179 /* FirstViewController.h */,
 				13233B9C1E8B973100F1B179 /* FirstViewController.m */,
 				13233B9D1E8B973100F1B179 /* FirstViewController.xib */,
-				13233BA01E8B983B00F1B179 /* PasswordImageView.h */,
-				13233BA11E8B983B00F1B179 /* PasswordImageView.m */,
-				13233BA31E8B989900F1B179 /* ItemButton.h */,
-				13233BA41E8B989900F1B179 /* ItemButton.m */,
-				13233BA61E8B994600F1B179 /* MainViewController.h */,
-				13233BA71E8B994600F1B179 /* MainViewController.m */,
-				13233BA81E8B994600F1B179 /* MainViewController.xib */,
+				13233BA01E8B983B00F1B179 /* MyImageView.h */,
+				13233BA11E8B983B00F1B179 /* MyImageView.m */,
+				13233BA31E8B989900F1B179 /* MyButton.h */,
+				13233BA41E8B989900F1B179 /* MyButton.m */,
+				13233BAB1E8BD96600F1B179 /* SecondViewController.h */,
+				13233BAC1E8BD96600F1B179 /* SecondViewController.m */,
+				13233BAD1E8BD96600F1B179 /* SecondViewController.xib */,
+				13233BB01E8BDB4D00F1B179 /* RoundedButton.h */,
+				13233BB11E8BDB4D00F1B179 /* RoundedButton.m */,
 				13233AEB1E8B96C400F1B179 /* Assets.xcassets */,
 				13233AED1E8B96C400F1B179 /* LaunchScreen.storyboard */,
 				13233AF01E8B96C400F1B179 /* Info.plist */,
@@ -487,7 +492,6 @@
 				13233B811E8B970B00F1B179 /* s_3.png in Resources */,
 				13233B571E8B970B00F1B179 /* c_2.png in Resources */,
 				13233B6C1E8B970B00F1B179 /* n_menu@2x.png in Resources */,
-				13233BAA1E8B994600F1B179 /* MainViewController.xib in Resources */,
 				13233AEC1E8B96C400F1B179 /* Assets.xcassets in Resources */,
 				13233B971E8B970B00F1B179 /* w_yin.png in Resources */,
 				13233B6F1E8B970B00F1B179 /* news_2.png in Resources */,
@@ -508,6 +512,7 @@
 				13233B721E8B970B00F1B179 /* news_5.png in Resources */,
 				13233B9F1E8B973100F1B179 /* FirstViewController.xib in Resources */,
 				13233B771E8B970B00F1B179 /* b_3.png in Resources */,
+				13233BAF1E8BD96600F1B179 /* SecondViewController.xib in Resources */,
 				13233B681E8B970B00F1B179 /* m_item3.png in Resources */,
 				13233B4F1E8B970B00F1B179 /* c_item1@2x.jpg in Resources */,
 				13233B611E8B970B00F1B179 /* c_setting1.png in Resources */,
@@ -541,12 +546,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13233BB21E8BDB4D00F1B179 /* RoundedButton.m in Sources */,
+				13233BAE1E8BD96600F1B179 /* SecondViewController.m in Sources */,
 				13233AE41E8B96C400F1B179 /* AppDelegate.m in Sources */,
-				13233BA91E8B994600F1B179 /* MainViewController.m in Sources */,
 				13233B9E1E8B973100F1B179 /* FirstViewController.m in Sources */,
 				13233AE11E8B96C400F1B179 /* main.m in Sources */,
-				13233BA51E8B989900F1B179 /* ItemButton.m in Sources */,
-				13233BA21E8B983B00F1B179 /* PasswordImageView.m in Sources */,
+				13233BA51E8B989900F1B179 /* MyButton.m in Sources */,
+				13233BA21E8B983B00F1B179 /* MyImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

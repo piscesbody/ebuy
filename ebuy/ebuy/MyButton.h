@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyImageView.h"
 
-@interface ItemButton : UIButton
+@interface MyButton : UIButton
 @property (nonatomic, assign) CGPoint beginCenter;/**< 初始位置 */
 @property (nonatomic, assign) BOOL isTOP;/**< 是否在密码视图上 */
-@property (nonatomic, retain) UIImageView *bottomView;/**< 底部视图 */
+@property (nonatomic, retain) MyImageView *coveredView;/**< 底部视图 */
 @end

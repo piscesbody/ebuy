@@ -6,9 +6,9 @@
 //  Copyright © 2017年 陈宁. All rights reserved.
 //
 
-#import "ItemButton.h"
+#import "MyButton.h"
 
-@implementation ItemButton
+@implementation MyButton
 
 - (id)initWithFrame:(CGRect)frame
 {

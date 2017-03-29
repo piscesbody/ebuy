@@ -6,9 +6,9 @@
 //  Copyright © 2017年 陈宁. All rights reserved.
 //
 
-#import "PasswordImageView.h"
+#import "MyImageView.h"
 
-@implementation PasswordImageView
+@implementation MyImageView
 
 
 -(id)initWithFrame:(CGRect)frame

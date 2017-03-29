@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PasswordImageView : UIImageView
+@interface MyImageView : UIImageView
 
 @property (nonatomic, assign) BOOL isCovered;/**< 覆盖判定 */
+@property (nonatomic, assign) int value;
 
 @end
