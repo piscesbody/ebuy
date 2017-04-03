@@ -8,6 +8,7 @@
 
 #import "SecondViewController.h"
 #import "RoundedButton.h"
+#import "SearchViewController.h"
 
 @interface SecondViewController ()
 {
@@ -67,14 +68,21 @@
 
 -(void)tranfromToController:(int)count
 {
+    UIViewController *viewController = nil;
     switch (count) {
         case 1:
             
+            break;
+        case 2:
+        {
+            viewController = [[SearchViewController alloc]init];
+        }
             break;
             
         default:
             break;
     }
+    [self.navigationController pushViewController:viewController  animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -97,6 +97,8 @@
 		13233BAE1E8BD96600F1B179 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BAC1E8BD96600F1B179 /* SecondViewController.m */; };
 		13233BAF1E8BD96600F1B179 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13233BAD1E8BD96600F1B179 /* SecondViewController.xib */; };
 		13233BB21E8BDB4D00F1B179 /* RoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BB11E8BDB4D00F1B179 /* RoundedButton.m */; };
+		13233BBA1E9291CD00F1B179 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BB81E9291CD00F1B179 /* SearchViewController.m */; };
+		13233BBB1E9291CD00F1B179 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13233BB91E9291CD00F1B179 /* SearchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -198,6 +200,9 @@
 		13233BAD1E8BD96600F1B179 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		13233BB01E8BDB4D00F1B179 /* RoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedButton.h; sourceTree = "<group>"; };
 		13233BB11E8BDB4D00F1B179 /* RoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedButton.m; sourceTree = "<group>"; };
+		13233BB71E9291CD00F1B179 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		13233BB81E9291CD00F1B179 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		13233BB91E9291CD00F1B179 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +236,10 @@
 		13233ADE1E8B96C400F1B179 /* ebuy */ = {
 			isa = PBXGroup;
 			children = (
+				13233BB31E92919B00F1B179 /* 城市界面 */,
+				13233BB41E92919B00F1B179 /* 搜索界面 */,
+				13233BB51E92919B00F1B179 /* 天气界面 */,
+				13233BB61E92919B00F1B179 /* 新闻界面 */,
 				13233AE21E8B96C400F1B179 /* AppDelegate.h */,
 				13233AE31E8B96C400F1B179 /* AppDelegate.m */,
 				13233B9B1E8B973100F1B179 /* FirstViewController.h */,
@@ -395,6 +404,37 @@
 			path = weather;
 			sourceTree = "<group>";
 		};
+		13233BB31E92919B00F1B179 /* 城市界面 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "城市界面";
+			sourceTree = "<group>";
+		};
+		13233BB41E92919B00F1B179 /* 搜索界面 */ = {
+			isa = PBXGroup;
+			children = (
+				13233BB71E9291CD00F1B179 /* SearchViewController.h */,
+				13233BB81E9291CD00F1B179 /* SearchViewController.m */,
+				13233BB91E9291CD00F1B179 /* SearchViewController.xib */,
+			);
+			path = "搜索界面";
+			sourceTree = "<group>";
+		};
+		13233BB51E92919B00F1B179 /* 天气界面 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "天气界面";
+			sourceTree = "<group>";
+		};
+		13233BB61E92919B00F1B179 /* 新闻界面 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "新闻界面";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -515,6 +555,7 @@
 				13233BAF1E8BD96600F1B179 /* SecondViewController.xib in Resources */,
 				13233B681E8B970B00F1B179 /* m_item3.png in Resources */,
 				13233B4F1E8B970B00F1B179 /* c_item1@2x.jpg in Resources */,
+				13233BBB1E9291CD00F1B179 /* SearchViewController.xib in Resources */,
 				13233B611E8B970B00F1B179 /* c_setting1.png in Resources */,
 				13233B521E8B970B00F1B179 /* c_item4@2x.jpg in Resources */,
 				13233B621E8B970B00F1B179 /* c_setting2.png in Resources */,
@@ -552,6 +593,7 @@
 				13233B9E1E8B973100F1B179 /* FirstViewController.m in Sources */,
 				13233AE11E8B96C400F1B179 /* main.m in Sources */,
 				13233BA51E8B989900F1B179 /* MyButton.m in Sources */,
+				13233BBA1E9291CD00F1B179 /* SearchViewController.m in Sources */,
 				13233BA21E8B983B00F1B179 /* MyImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -699,6 +741,7 @@
 				13233AF51E8B96C400F1B179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
