@@ -28,7 +28,31 @@
         [_contentImageArray addObject:image];
     }
 }
+- (IBAction)itemButtonClick:(UIButton *)sender
+{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.5];
+    _bgView.center = sender.center;
+    _frontView.frame = CGRectMake(0, 0, 414, 736);
+    _titleLabel.text = [_titleArray objectAtIndex:sender.tag-1];
+    _contentImageView.image = [_contentImageArray objectAtIndex:sender.tag-1];
+    [UIView commitAnimations];
+    
+}
 
+- (IBAction)backButtonClick:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+    
+}
+
+- (IBAction)menuButtonClick:(UIButton *)sender
+{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:1];
+    _frontView.frame = CGRectMake(230, 0, 200, 300);
+    [UIView commitAnimations];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

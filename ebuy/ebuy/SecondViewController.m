@@ -9,6 +9,8 @@
 #import "SecondViewController.h"
 #import "RoundedButton.h"
 #import "SearchViewController.h"
+#import "CityViewController.h"
+#import "NewsViewController.h"
 
 @interface SecondViewController ()
 {
@@ -71,14 +73,24 @@
     UIViewController *viewController = nil;
     switch (count) {
         case 1:
+        {
             
+        }
             break;
         case 2:
         {
             viewController = [[SearchViewController alloc]init];
         }
             break;
-            
+        case 3:
+        {
+            viewController = [[CityViewController alloc]init];
+        }
+            break;
+        case 4:
+        {
+            viewController = [[NewsViewController alloc]init];
+        }
         default:
             break;
     }

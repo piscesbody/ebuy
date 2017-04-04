@@ -12,7 +12,7 @@
 {
     __weak IBOutlet UIView *_bgView;
     __weak IBOutlet UIView *_frontView;
-    __weak IBOutlet UILabel *titleLabel;
+    __weak IBOutlet UILabel *_titleLabel;
     __weak IBOutlet UIImageView *_contentImageView;
 }
 
