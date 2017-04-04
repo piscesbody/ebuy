@@ -99,6 +99,10 @@
 		13233BB21E8BDB4D00F1B179 /* RoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BB11E8BDB4D00F1B179 /* RoundedButton.m */; };
 		13233BBA1E9291CD00F1B179 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BB81E9291CD00F1B179 /* SearchViewController.m */; };
 		13233BBB1E9291CD00F1B179 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13233BB91E9291CD00F1B179 /* SearchViewController.xib */; };
+		13233BBF1E92A2AA00F1B179 /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BBD1E92A2AA00F1B179 /* CityViewController.m */; };
+		13233BC01E92A2AA00F1B179 /* CityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13233BBE1E92A2AA00F1B179 /* CityViewController.xib */; };
+		13233BC41E92A2D200F1B179 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BC21E92A2D200F1B179 /* NewsViewController.m */; };
+		13233BC51E92A2D200F1B179 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13233BC31E92A2D200F1B179 /* NewsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -203,6 +207,12 @@
 		13233BB71E9291CD00F1B179 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		13233BB81E9291CD00F1B179 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		13233BB91E9291CD00F1B179 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		13233BBC1E92A2AA00F1B179 /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		13233BBD1E92A2AA00F1B179 /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
+		13233BBE1E92A2AA00F1B179 /* CityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityViewController.xib; sourceTree = "<group>"; };
+		13233BC11E92A2D200F1B179 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		13233BC21E92A2D200F1B179 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		13233BC31E92A2D200F1B179 /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -407,6 +417,9 @@
 		13233BB31E92919B00F1B179 /* 城市界面 */ = {
 			isa = PBXGroup;
 			children = (
+				13233BBC1E92A2AA00F1B179 /* CityViewController.h */,
+				13233BBD1E92A2AA00F1B179 /* CityViewController.m */,
+				13233BBE1E92A2AA00F1B179 /* CityViewController.xib */,
 			);
 			path = "城市界面";
 			sourceTree = "<group>";
@@ -431,6 +444,9 @@
 		13233BB61E92919B00F1B179 /* 新闻界面 */ = {
 			isa = PBXGroup;
 			children = (
+				13233BC11E92A2D200F1B179 /* NewsViewController.h */,
+				13233BC21E92A2D200F1B179 /* NewsViewController.m */,
+				13233BC31E92A2D200F1B179 /* NewsViewController.xib */,
 			);
 			path = "新闻界面";
 			sourceTree = "<group>";
@@ -546,6 +562,7 @@
 				13233B601E8B970B00F1B179 /* c_setting0.png in Resources */,
 				13233B651E8B970B00F1B179 /* bg2.jpg in Resources */,
 				13233B8D1E8B970B00F1B179 /* w_moon1.png in Resources */,
+				13233BC51E92A2D200F1B179 /* NewsViewController.xib in Resources */,
 				13233B751E8B970B00F1B179 /* b_1.png in Resources */,
 				13233B731E8B970B00F1B179 /* news_6.png in Resources */,
 				13233B4D1E8B970B00F1B179 /* bg@2x.jpg in Resources */,
@@ -565,6 +582,7 @@
 				13233B9A1E8B970B00F1B179 /* xx2.png in Resources */,
 				13233B801E8B970B00F1B179 /* s_2.png in Resources */,
 				13233B831E8B970B00F1B179 /* s_5.png in Resources */,
+				13233BC01E92A2AA00F1B179 /* CityViewController.xib in Resources */,
 				13233B851E8B970B00F1B179 /* s_7.png in Resources */,
 				13233B551E8B970B00F1B179 /* c_11.png in Resources */,
 				13233B761E8B970B00F1B179 /* b_2.png in Resources */,
@@ -593,6 +611,8 @@
 				13233B9E1E8B973100F1B179 /* FirstViewController.m in Sources */,
 				13233AE11E8B96C400F1B179 /* main.m in Sources */,
 				13233BA51E8B989900F1B179 /* MyButton.m in Sources */,
+				13233BBF1E92A2AA00F1B179 /* CityViewController.m in Sources */,
+				13233BC41E92A2D200F1B179 /* NewsViewController.m in Sources */,
 				13233BBA1E9291CD00F1B179 /* SearchViewController.m in Sources */,
 				13233BA21E8B983B00F1B179 /* MyImageView.m in Sources */,
 			);
