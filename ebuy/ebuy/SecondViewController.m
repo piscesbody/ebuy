@@ -11,6 +11,7 @@
 #import "SearchViewController.h"
 #import "CityViewController.h"
 #import "NewsViewController.h"
+#import "WeatherViewController.h"
 
 @interface SecondViewController ()
 {
@@ -74,7 +75,7 @@
     switch (count) {
         case 1:
         {
-            
+            viewController = [[WeatherViewController alloc]init];
         }
             break;
         case 2:

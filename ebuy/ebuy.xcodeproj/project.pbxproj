@@ -103,6 +103,10 @@
 		13233BC01E92A2AA00F1B179 /* CityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13233BBE1E92A2AA00F1B179 /* CityViewController.xib */; };
 		13233BC41E92A2D200F1B179 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BC21E92A2D200F1B179 /* NewsViewController.m */; };
 		13233BC51E92A2D200F1B179 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13233BC31E92A2D200F1B179 /* NewsViewController.xib */; };
+		13233BC91E93DC4F00F1B179 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BC71E93DC4F00F1B179 /* WeatherViewController.m */; };
+		13233BCA1E93DC4F00F1B179 /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13233BC81E93DC4F00F1B179 /* WeatherViewController.xib */; };
+		13233BCD1E93DC6900F1B179 /* RainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BCC1E93DC6900F1B179 /* RainView.m */; };
+		13233BD01E93DC7900F1B179 /* CloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13233BCF1E93DC7900F1B179 /* CloudView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -213,6 +217,13 @@
 		13233BC11E92A2D200F1B179 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
 		13233BC21E92A2D200F1B179 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 		13233BC31E92A2D200F1B179 /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		13233BC61E93DC4F00F1B179 /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		13233BC71E93DC4F00F1B179 /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		13233BC81E93DC4F00F1B179 /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
+		13233BCB1E93DC6900F1B179 /* RainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainView.h; sourceTree = "<group>"; };
+		13233BCC1E93DC6900F1B179 /* RainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainView.m; sourceTree = "<group>"; };
+		13233BCE1E93DC7900F1B179 /* CloudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudView.h; sourceTree = "<group>"; };
+		13233BCF1E93DC7900F1B179 /* CloudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -437,6 +448,13 @@
 		13233BB51E92919B00F1B179 /* 天气界面 */ = {
 			isa = PBXGroup;
 			children = (
+				13233BC61E93DC4F00F1B179 /* WeatherViewController.h */,
+				13233BC71E93DC4F00F1B179 /* WeatherViewController.m */,
+				13233BC81E93DC4F00F1B179 /* WeatherViewController.xib */,
+				13233BCB1E93DC6900F1B179 /* RainView.h */,
+				13233BCC1E93DC6900F1B179 /* RainView.m */,
+				13233BCE1E93DC7900F1B179 /* CloudView.h */,
+				13233BCF1E93DC7900F1B179 /* CloudView.m */,
 			);
 			path = "天气界面";
 			sourceTree = "<group>";
@@ -591,6 +609,7 @@
 				13233B8B1E8B970B00F1B179 /* w_cloud.png in Resources */,
 				13233B631E8B970B00F1B179 /* c_setting3.png in Resources */,
 				13233B5E1E8B970B00F1B179 /* c_9.png in Resources */,
+				13233BCA1E93DC4F00F1B179 /* WeatherViewController.xib in Resources */,
 				13233B881E8B970B00F1B179 /* s_bg@2x.png in Resources */,
 				13233B7C1E8B970B00F1B179 /* b_8.png in Resources */,
 				13233B5C1E8B970B00F1B179 /* c_7.png in Resources */,
@@ -607,12 +626,15 @@
 			files = (
 				13233BB21E8BDB4D00F1B179 /* RoundedButton.m in Sources */,
 				13233BAE1E8BD96600F1B179 /* SecondViewController.m in Sources */,
+				13233BCD1E93DC6900F1B179 /* RainView.m in Sources */,
 				13233AE41E8B96C400F1B179 /* AppDelegate.m in Sources */,
 				13233B9E1E8B973100F1B179 /* FirstViewController.m in Sources */,
+				13233BC91E93DC4F00F1B179 /* WeatherViewController.m in Sources */,
 				13233AE11E8B96C400F1B179 /* main.m in Sources */,
 				13233BA51E8B989900F1B179 /* MyButton.m in Sources */,
 				13233BBF1E92A2AA00F1B179 /* CityViewController.m in Sources */,
 				13233BC41E92A2D200F1B179 /* NewsViewController.m in Sources */,
+				13233BD01E93DC7900F1B179 /* CloudView.m in Sources */,
 				13233BBA1E9291CD00F1B179 /* SearchViewController.m in Sources */,
 				13233BA21E8B983B00F1B179 /* MyImageView.m in Sources */,
 			);
